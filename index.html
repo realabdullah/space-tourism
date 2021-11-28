@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="index.css">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
     <title>Space Tourism</title>
+
+    <script src="index.js" defer></script>
 </head>
 <body class="home">
     <header class="primary-header flex">
@@ -19,7 +21,7 @@
         </div>
         <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
         <nav>
-            <ul id="primary-navigation" class="primary-navigation underline-indicators flex">
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
               <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"><span>00</span>Home</a></li>
               <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"><span>01</span>Destination</a></li>
               <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"><span>02</span>Crew</a></li>
